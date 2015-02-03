@@ -1,0 +1,104 @@
+ADAPTIVE FILTER ALGORITHMS PACKAGE FOR MATLAB ver. 1.0
+
+This package was created during completing „Combined Noise and Echo Reduction” 
+M. Sc. Thesis (Silesian University of Technology, Gliwice, Poland) for simulation purposes (full thesis is available (in Polish) in cner.pdf file). 	
+The package covers main topics in adaptive algorithms. List of included procedures is as follows:
+
+Stochastic gradient algorithms
+
+APAOCF			Affine Projection Algorithm with Orthogonal Correction Factors
+DCTLMS			Discrete Cosine Transform Least Mean Square
+DFTLMS			Discrete Fourier Transform Least Mean Square
+DHTLMS			Discrete Hartley Transform Least Mean Square
+eAPA			e-Affine Projection Algorithms
+eNLMS			e-Normalized Least Mean Square
+epNLMS			e-Power Normalized Least Mean Square
+ePRA			e-Partial Rank Algorithm
+LeakyLMS		Leaky Least Mean Square
+LMF			Least Mean Fourth
+LMMN			Least Mean Mixed Norm
+LMS			Least Mean Square
+seLMS			Signed Error Least Mean Square
+srLMS			Signed Regressor Least Mean Square
+ssLMS			Sign-Sign Least Mean Square
+
+Block algorithms
+
+Bconv			Efficient block convolution via DFT
+BDCTconv		Efficient block convolution via DCT
+BDHTconv		Efficient block convolution via DHT
+cDCTBpNLMS		Constrained DCT Block Power Normalized Least Mean Square
+cDFTBpNLMS		Constrained DFT Block Power Normalized Least Mean Square
+cDHTBpNLMS		Constrained DHT Block Power Normalized Least Mean Square
+dlBconv			Delayless efficient block convolution via DFT
+fcDCTBpNLMS		Constrained DCT Block Power Normalized Least Mean Square with error estimate by convolution in fullband
+fcDFTBpNLMS		Constrained DFT Block Power Normalized Least Mean Square with error estimate by convolution in fullband
+fcDHTBpNLMS		Constrained DHT Block Power Normalized Least Mean Square with error estimate by convolution in fullband
+efcDFTBpNLMS		Constrained DFT Block Power Normalized Least Mean Square with error estimate by efficient block convolution in fullband
+dlefcDFTBpNLMS		Delayless constrained DFT Block Power Normalized Least Mean Square with error estimate by efficient block convolution in fullband
+uDCTBpNLMS		Unconstrained DCT Block Power Normalized Least Mean Square
+uDFTBpNLMS		Unconstrained DFT Block Power Normalized Least Mean Square
+uDHTBpNLMS		Unconstrained DHT Block Power Normalized Least Mean Square
+
+Infinite memory Recursive Least Squares
+
+FAEST			Fast a Posteriori Error Sequential Technique
+FARLS			Fast Array Recursive Least Squares
+FARLSL			Fast Array Recursive Least Squares Lattice based on QR Decomposition
+FKF			Fast Kalman Filter
+FTF			Fast Transversal Filters
+QRRLS			QR Recursive Least Squares
+IQRRLS			Inverse QR Recursive Least Squares
+NRLSL			Normalized Recursive Least Squares Lattice
+RLS			Recursive Least Squares
+SFTF			Stabilized Fast Transversal Filters
+RLSLpos			A Posteriori Based Recursive Least Squares Lattice
+RLSLposf		A Posteriori Based Error Feedback 	Recursive Least Squares Lattice
+RLSLpri			A Priori Based Recursive Least Squares Lattice
+RLSLprif		A Priori Based Error Feedback Recursive Least Squares Lattice
+
+Finite memory Recursive Least Squares
+
+SWRLS			Sliding Window Recursive Least Squares
+SWIQRRLS		Sliding Window Inverse QR Recursive Least Squares
+SWQRRLS			Sliding Window QR Recursive Least Squares
+SWFARLS			Sliding Window Fast Array Recursive Least Squares
+SWFARLSL		Sliding Window Fast Array Recursive Least Squares Lattice Based on QR Decomposition
+SWRLSLpos		Sliding Window a Posteriori Based Recursive Least Squares Lattice
+RLSLposf		Sliding Window a Posteriori Based Error Feedback Recursive Least Squares Lattice
+SWRLSLpri		Sliding Window A Priori Based Recursive Least Squares Lattice
+SWRLSLprif		Sliding Window a Priori Based Error Feedback Recursive Least Squares Lattice
+
+Miscellaneous algorithms
+
+BEFAP_FARLS             Block Exact Fast Affine Projection Algorithm with Fast Array Recursive Least Squares prediction
+BEFAP_FQRD              Block Exact Fast Affine Projection Algorithm with Fast Array Recursive Least Squares Lattice prediction
+
+For absolutely outstanding reference in adaptive filtering look „Fundamentals of Adaptive Filtering” 
+by Ali H. Sayed. Also check „Adaptive Filters. Theory and Applications” by B. Farhang-Boroujeny. 
+
+LICENSE:
+
+	Adaptive Filter Algorithms Package for Matlab ver. 1.0
+ 	Copyright (C) <2006>  Bartosz Zator 
+	Have you found a bug? Please let me know: <braton@gmail.com>
+
+ 	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+ 	the Free Software Foundation; either version 2 of the License, or
+ 	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License along
+	with this program; if not, write to the Free Software Foundation, Inc.,
+	51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+								Bartosz Zator M. Sc.
+								E-mail: braton@gmail.com
+								Bytom, $04-Nov-2006, 16:07$
+								Poland
